@@ -11,6 +11,7 @@ RUN apt-get update \
   libpq-dev \
   libxslt-dev \
   libzip-dev \
+  postgresql-client \
   && apt-get clean \
   && rm -rf /var/lib/apt/lists/*
 
